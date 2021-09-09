@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6{
 .waxon_tm_topbar.opened{top: 0px;}
 .waxon_tm_topbar.extra{top: 0px !important;}
 .waxon_tm_topbar.animate{
-	padding: 15px 0px;
+	padding: 5px 0px;
 	color: #fff;
 	background-color: #fff;
 	box-shadow: 0px 0px 10px rgba(0,0,0,.06);
@@ -239,6 +239,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .waxon_tm_topbar .menu .links ul li a .first{
+
 	position: absolute;
 	transform: translateY(100%);
 	-webkit-transition: all .3s ease;
@@ -246,7 +247,6 @@ h1, h2, h3, h4, h5, h6{
 	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
-			color: #fff;
 }
 .waxon_tm_topbar .menu .links ul li a .second{
 	position: relative;
@@ -256,26 +256,21 @@ h1, h2, h3, h4, h5, h6{
 	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
-			color: #fff;
 	
 }
 
 .waxon_tm_topbar .menu .links ul li a:hover .first{
 	transform: translateY(0);
-	color: #000;
 }
 .waxon_tm_topbar .menu .links ul li a:hover .second{
 	transform: translateY(-100%);
-	color: #000;
 }
 .waxon_tm_topbar .menu .links ul li.current a .first{
 	transform: translateY(0);
-	color: #000;
 	
 }
 .waxon_tm_topbar .menu .links ul li.current a .second{
 	transform: translateY(-100%);
-	color: #000;
 }
 
 /*---------------------------------------------------*/
